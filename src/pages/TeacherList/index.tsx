@@ -26,7 +26,7 @@ function TeacherList() {
         )}
       >
         { isFilterVisible && (
-            <View style={styles.searchForm}>
+          <View style={styles.searchForm}>
             <Text style={styles.label}>Matéria</Text>
             <TextInput 
               style={styles.input}

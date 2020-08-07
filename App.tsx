@@ -26,3 +26,6 @@ export default function App() {
     );
   }  
 }
+
+// https://nextlevelweek.com/episodios/omnistack/1/edicao/2
+// 45:00

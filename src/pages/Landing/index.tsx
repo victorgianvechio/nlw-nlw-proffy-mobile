@@ -19,9 +19,9 @@ function Landing() {
   useEffect(() => {
     api.get('connections').then(response => {
       const { total } = response.data;
-
+      
       setTotalConnections(total);
-    });
+    });   
   }, []);
 
   function handleNavigateToGiveClassesPage() {
