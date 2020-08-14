@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "nlw-proffy-mobile",
-    "slug": "nlw-proffy-mobile",
+    "name": "nlw-proffy",
+    "slug": "nlw-proffy",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",

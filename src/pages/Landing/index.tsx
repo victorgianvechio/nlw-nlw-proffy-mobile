@@ -17,7 +17,7 @@ function Landing() {
   const [totalConnections, setTotalConnections] = useState(0);
 
   useEffect(() => {
-    api.get('connections').then(response => {
+    api.get('/connections').then(response => {
       const { total } = response.data;
       
       setTotalConnections(total);
@@ -47,7 +47,6 @@ function Landing() {
           style={[styles.button, styles.buttonPrimary]}
         >
           <Image source={studyIcon} />
-
           <Text style={styles.buttonText}>Estudar</Text>
         </RectButton>
 
@@ -56,7 +55,6 @@ function Landing() {
           style={[styles.button, styles.buttonSecondary]}
         >
           <Image source={giveClassesIcon} />
-
           <Text style={styles.buttonText}>Dar aulas</Text>
         </RectButton>
       </View>
